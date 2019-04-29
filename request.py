@@ -1,4 +1,8 @@
 import requests
+
+# URL
 url = 'http://localhost:5000/api'
-r = requests.post(url,json={'exp':1.8,})
-print(r.json())
+
+# Change the value of experience that you want to test
+r = requests.post(url,json={})
+print(r)
